@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: spring-modulith-lab
+
+  modulith:
+    modules:
+      - name: product
+        basePackages:
+          - com.freefeather.modulith.product
+        internalPackages:
+          - com.freefeather.modulith.product.internal
+        publicPackages:
+          - com.freefeather.modulith.product.service
+      - name: notification
+        basePackages:
+          - com.freefeather.modulith.notification
+        internalPackages:
+          - com.freefeather.modulith.notification.internal
+        publicPackages:
+          - com.freefeather.modulith.notification.service
