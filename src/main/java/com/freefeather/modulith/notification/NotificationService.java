@@ -3,7 +3,7 @@ package com.freefeather.modulith.notification;
 import com.freefeather.modulith.notification.internal.NotificationType;
 import com.freefeather.modulith.notification.internal.Notification;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.modulith.ApplicationModuleListener;
+import org.springframework.modulith.events.ApplicationModuleListener;
 import org.springframework.stereotype.Service;
 
 @Service
