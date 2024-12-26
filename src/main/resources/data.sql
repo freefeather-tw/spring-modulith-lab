@@ -1,0 +1,1 @@
+insert into EMPLOYEE (ID, NO, NAME) values ('ad6cbd1f-8372-40fa-9b8d-052209325daa', '001', 'Alice');
